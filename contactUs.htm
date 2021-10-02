@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Testing</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <script src="Script1.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <div id="wrapper">
+        <div class="container" onclick="toggleChange(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <div id="logout">
+            <button id="lo">
+                <span class="iconify" data-icon="mdi:logout"></span>
+            </button>
+        </div>
+
+        <div class="buttons">
+            <button class="but">
+                <a href="mailto:nitya.dosaj@gmail.com?subject = Feedback&body = Message">Email us</a>
+            </button>
+            <button onclick="comment()" class="but">
+                Comment
+            </button>
+        </div>
+    </div>
+    <div id="comments">
+        <input type="text" value="Enter your comment" />
+        <button onclick="goBack()">Submit</button>
+    </div>
+
+</body>
+</html>
